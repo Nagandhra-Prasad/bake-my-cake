@@ -1,0 +1,31 @@
+<div id="space">
+
+    <mat-button-toggle-group class="icon" [(ngModel)]="filterText">
+        <mat-button-toggle class="cakeicon" value="cake" (click)="filter()">cake</mat-button-toggle>
+        <mat-button-toggle class="cakeicon" value="cookies" (click)="filter()">cookies</mat-button-toggle>
+        <mat-button-toggle class="cakeicon" value="brownie" (click)="filter()">brownies
+            <!-- <style>
+                span:before {
+                    content: "\1F36B";
+                }
+            </style>
+            <span>Symbol:</span> -->
+        </mat-button-toggle>
+        <!-- <button mat-button class="reset" reset()>Reset</button> -->
+        <mat-button-toggle class="cakeicon" value="" (click)="filter()">reset</mat-button-toggle>
+    </mat-button-toggle-group>
+    <button class="custom" mat-raised-button routerLink="/customization">
+        <!-- <i class="bi bi-chat-left-heart-fill"></i> -->
+        <!-- <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+            class="bi bi-chat-left-heart-fill " viewBox="0 0 16 16">
+            <path class="fs-4"
+                d="M2 0a2 2 0 0 0-2 2v12.793a.5.5 0 0 0 .854.353l2.853-2.853A1 1 0 0 1 4.414 12H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zm6 3.993c1.664-1.711 5.825 1.283 0 5.132-5.825-3.85-1.664-6.843 0-5.132" />
+        </svg> -->
+
+        <span class="material-symbols-outlined size">
+            cake_add
+        </span>
+    </button>
+
+
+</div>

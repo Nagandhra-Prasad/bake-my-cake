@@ -1,0 +1,32 @@
+.icons {
+    float: right;
+    margin-left: 45rem;
+}
+
+#icon-1,
+#icon-2,
+#icon-3 {
+    padding: px;
+}
+
+h1 {
+    margin-top: 20px;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Philosopher', sans-serif;
+    height: 10px;
+    /* padding-left: 300px; */
+}
+
+#para {
+    /* padding-left: 70px; */
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Philosopher', sans-serif;
+    /* align-items: center; */
+    /* padding-left: 00px; */
+}
+
+#header {
+    width: 120%;
+    background-color: #005792;
+    ;
+}
