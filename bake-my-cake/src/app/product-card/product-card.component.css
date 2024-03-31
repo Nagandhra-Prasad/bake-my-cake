@@ -2,7 +2,7 @@
 
 
     width: 350px;
-    height: 80%;   
+    height: 80%;
     margin: 30px 10px;
     display: inline-flex;
     flex-direction: column;
@@ -10,22 +10,23 @@
     margin-left: 5%;
     background: rgb(136, 168, 195);
     transition: transform 0.3 ease;
-    border-radius: 10px;  
-     
-    
-    
+    border-radius: 10px;
+
+
+
 }
-.product-title{
+
+.product-title {
     float: left;
 }
 
 .product-card:hover {
     transform: scale(1.03);
-   
-} 
+
+}
 
 .image {
 
     border-radius: 10px;
-    
+
 }
